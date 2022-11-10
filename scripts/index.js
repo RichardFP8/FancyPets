@@ -47,7 +47,6 @@ let pets = [
 window.onload = () => {
     pets.forEach(createCard);
 }
-
 function createCard(pet){
     const getMainElement = document.querySelector(".row");
     //create all the elements for the car
